@@ -1,0 +1,25 @@
+/* TRATAMENTO PARA ZERAR TODAS AS TAGS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    /*background: url("../images/background.jpg") center center no-repeat; (url é o caminho da imagem) angulo x angulo y repeticção;*/
+    background: url("../images/bg-registration-form-1.jpg") center center no-repeat fixed;
+    -webkit-background-size: cover; 
+    -o-background-size:cover;
+    background-size: cover;
+    background-size: 100%;
+}
+
+footer{
+    height: 100px;
+    background-color: #2a2a2a;
+    position: relative;
+    padding: 35px 0 10px 0;
+}
+
